@@ -1,0 +1,2 @@
+{"level":"INFO","timestamp":"2024-08-24T13:54:47.863Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"main-worker"}
+{"level":"INFO","timestamp":"2024-08-24T13:55:05.311Z","logger":"kafkajs","message":"[ConsumerGroup] Consumer has joined the group","groupId":"main-worker","memberId":"outbox-processor-d0bf5b30-a977-4d02-b60d-f4e0ceb6b2a5","leaderId":"outbox-processor-d0bf5b30-a977-4d02-b60d-f4e0ceb6b2a5","isLeader":true,"memberAssignment":{"zap-events":[0]},"groupProtocol":"RoundRobinAssigner","duration":17431}
