@@ -18,6 +18,7 @@ model User {
     name     String
     email    String
     password String
+    zaps     Zap[]
 }
 
 model Zap {
@@ -26,6 +27,8 @@ model Zap {
     trigger   Trigger?
     Action    Action[]
     zapRun    ZapRun[]
+    userId    Int
+    User      User     @relation(fields: [userId], references: [id])
 }
 
 model Trigger {
